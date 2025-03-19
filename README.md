@@ -1,7 +1,8 @@
 # Sarcasm Detection in Tamil and Malayalam
 
 ## 📌 Overview
-This project aims to detect sarcasm in Tamil and Malayalam texts using machine learning models. The dataset includes the original texts in Tamil and Malayalam. Various feature extraction techniques (TF-IDF, Word2Vec) and classification models are evaluated.
+This project aims to detect sarcasm in Tamil and Malayalam texts using machine learning models. The dataset includes the original texts in Tamil and Malayalam. Various feature extraction techniques (TF-IDF, Word2Vec) and classification models are evaluated. 
+This was done as a part of a Shared Task on "Sarcasm Identification of Dravidian Languages" organised by DravidianCodeMix@2024
 
 ## 📊 Model Performance and Result
 The results show how different models perform with translated and non-translated texts. The best-performing models are:
@@ -36,3 +37,7 @@ The results show how different models perform with translated and non-translated
   - NLTK (Text Preprocessing)
   - Pandas, NumPy (Data Processing)
   - Matplotlib (Visualization)
+
+## 🧑‍🤝‍🧑 The Team and Mentor
+Team: Rohan R, Thirumurugan RA, Madussree Ravi, Shivaanee SK
+Mentor: Dr. Thenmozhi Durairaj., professor at SSN College of Engineering.
