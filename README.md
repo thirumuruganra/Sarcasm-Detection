@@ -21,13 +21,13 @@ The results show how different models perform with translated and non-translated
 |                         | Word2Vec | 0.64                        | 0.54                     | 0.50                            |
 | **Decision Tree**      | TFIDF    | 0.65                        | 0.52                     | 0.62                            |
 |                         | Word2Vec |0.59                        | 0.50                     | 0.49                            |
-| **Ensemble Model (with all the above 5 models)**     | TFIDF    | 0.72                    | 0.52                     | **0.67**                        |
+| **Ensemble Model (with all the above 5 models)**     | TFIDF    | 0.72                    | 0.52                     | _**0.67**_                        |
 |                         | Word2Vec | 0.64                        | 0.52                     | 0.49                            |
 | **Bootstrap Aggregating** | TFIDF |0.67                        | 0.52                     | 0.64                            |
 |                         | Word2Vec | 0.62                        | 0.52                     | 0.54                            |
 | **Gradient Boosting**  | TFIDF    |0.64                        | 0.51                     | 0.64                            |
 |                         | Word2Vec |0.64                        | 0.51                     | 0.54                            |
-| **Meta Stacking**      | TFIDF    | **0.72**                    | 0.61                     | 0.67                        |
+| **Meta Stacking**      | TFIDF    | _**0.72**_                    | 0.61                     | 0.67                        |
 |                         | Word2Vec | 0.61                        | 0.47                     | 0.47                            |
 
 ## 🏗️ Tech Stack
