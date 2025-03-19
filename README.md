@@ -1,12 +1,33 @@
 # Sarcasm Detection in Tamil and Malayalam
 
 ## 📌 Overview
-This project aims to detect sarcasm in Tamil and Malayalam texts using machine learning models. The dataset includes both original texts and their English translations to compare performance with and without translation. Various feature extraction techniques (TF-IDF, Word2Vec) and classification models are evaluated.
+This project aims to detect sarcasm in Tamil and Malayalam texts using machine learning models. The dataset includes the original texts in Tamil and Malayalam. Various feature extraction techniques (TF-IDF, Word2Vec) and classification models are evaluated.
 
-## 📊 Model Performance
+## 📊 Model Performance and Result
 The results show how different models perform with translated and non-translated texts. The best-performing models are:
-- **SVM and Logistic Regression (TF-IDF)**: Highest accuracy without translation.
-- **Meta Stacking (TF-IDF)**: Best overall performance.
+- **Ensemble Model (TF-IDF)**: Best performance for Malayalam (without Translation).
+- **Meta Stacking (TF-IDF)**: Best performance for Tamil (without Translation).
+
+| Model                   | Feature  | Tamil (Without Translation) | Malayalam (Translation) | Malayalam (Without Translation) |
+|-------------------------|----------|-----------------------------|--------------------------|---------------------------------|
+| **SVM**                | TFIDF    |0.72                    | 0.52                     | 0.67                        |
+|                         | Word2Vec | 0.62                        | 0.38                     | 0.49                            |
+| **Logistic Regression** | TFIDF    |0.72                   | 0.53                     | 0.67                        |
+|                         | Word2Vec |0.63                        | 0.44                     | 0.46                            |
+| **KNN**                | TFIDF    | 0.54                        | 0.48                     | 0.60                            |
+|                         | Word2Vec |0.60                        | 0.49 (No grid search)    | -                               |
+| **Random Forest**      | TFIDF    | 0.69                        | 0.56                     | 0.66                      |
+|                         | Word2Vec | 0.64                        | 0.54                     | 0.50                            |
+| **Decision Tree**      | TFIDF    | 0.65                        | 0.52                     | 0.62                            |
+|                         | Word2Vec |0.59                        | 0.50                     | 0.49                            |
+| **Ensemble Model (with all the above 5 models)**     | TFIDF    | 0.72                    | 0.52                     | **0.67**                        |
+|                         | Word2Vec | 0.64                        | 0.52                     | 0.49                            |
+| **Bootstrap Aggregating** | TFIDF |0.67                        | 0.52                     | 0.64                            |
+|                         | Word2Vec | 0.62                        | 0.52                     | 0.54                            |
+| **Gradient Boosting**  | TFIDF    |0.64                        | 0.51                     | 0.64                            |
+|                         | Word2Vec |0.64                        | 0.51                     | 0.54                            |
+| **Meta Stacking**      | TFIDF    | **0.72**                    | 0.61                     | **0.67                        |
+|                         | Word2Vec | 0.61                        | 0.47                     | 0.47                            |
 
 ## 🏗️ Tech Stack
 - **Programming Language**: Python
