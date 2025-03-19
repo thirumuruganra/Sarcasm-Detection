@@ -39,5 +39,5 @@ The results show how different models perform with translated and non-translated
   - Matplotlib (Visualization)
 
 ## 🧑‍🤝‍🧑 The Team and Mentor
-Team: Rohan R, Thirumurugan RA, Madussree Ravi, Shivaanee SK \
+Team: Rohan R, Thirumurugan RA, Madussree Ravi and Shivaanee SK \
 Mentor: Dr. Thenmozhi Durairaj, professor at SSN College of Engineering.
