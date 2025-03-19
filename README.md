@@ -26,7 +26,7 @@ The results show how different models perform with translated and non-translated
 |                         | Word2Vec | 0.62                        | 0.52                     | 0.54                            |
 | **Gradient Boosting**  | TFIDF    |0.64                        | 0.51                     | 0.64                            |
 |                         | Word2Vec |0.64                        | 0.51                     | 0.54                            |
-| **Meta Stacking**      | TFIDF    | **0.72**                    | 0.61                     | **0.67                        |
+| **Meta Stacking**      | TFIDF    | **0.72**                    | 0.61                     | 0.67                        |
 |                         | Word2Vec | 0.61                        | 0.47                     | 0.47                            |
 
 ## 🏗️ Tech Stack
